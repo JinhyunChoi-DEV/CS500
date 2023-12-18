@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="acceleration.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="geom.cpp" />
+    <ClCompile Include="raytrace.cpp" />
+    <ClCompile Include="StaticRayTrace.cpp" />
+    <ClCompile Include="readAssimpFile.cpp" />
+    <ClCompile Include="rgbe.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Interval.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StaticRayTrace.h" />
+    <ClInclude Include="geom.h" />
+    <ClInclude Include="Camera.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="raytrace.h" />
+    <ClInclude Include="acceleration.h" />
+    <ClInclude Include="Interval.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{dcaaca7f-5c33-4848-9032-6c114dda9643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
